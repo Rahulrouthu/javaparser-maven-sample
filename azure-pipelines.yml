@@ -10,6 +10,7 @@ pool:
   name: 'Default'
   demands:
     - Agent.Name -equals vm1
+    - maven
 
 steps:
 - task: Maven@3
